@@ -44,7 +44,8 @@ README I have included a README.md in the repo with my scripts. This repo explai
 
 ##For 1st tiny data set: Read data sets and combine them Read subjects and combine them Read data labels and combine them Read features list Subset only only std and mean features from list Perform same subset on data set Rename features to be more human readable Read activity list Rename activities to be more human readable Rename data labels with activity name Merge data, subjects, and labels to single tiny data set Write tiny data set to file ##For 2nd tiny data set: average of measurement for activity and subject Prepare empty data set of appropriate length for Loop through subjects, then subloop through activities For each activity in a subject, get the full list of measurements Calculate the mean of each of these activities Place the means in subsequent columns of the subject/activity row Write second tiny data set to file.
 
---------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+
 
 Obtain the raw data sets and put them in the working directory (via Rstudio)
 The following steps were performed in a PC running the operation system Window 8.1. The data cleaning processes were performed in Rstudio with R version 3.1.0
@@ -112,7 +113,11 @@ Step-5: Creates a second, independent tidy data set with the average of each var
     
     + The detailed description of the "tidyDataSet.txt" and the given raw data set
       are in "CodeBook.md" file.
-=========================================================================================
+
+      
+--------------------------------------------------------------------------------------------
+
+
 Acknowledgement
 Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
 
@@ -124,4 +129,6 @@ Using the tidy data set "tidyDataSet.txt" in publications must be acknowledged b
 This dataset is distributed AS-IS and no responsibility implied or explicit can be addressed to the authors or their institutions for its use or misuse. Any commercial use is prohibited.
 
 Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012.
-=========================================================================================
+--------------------------------------------------------------------------------------------
+
+
